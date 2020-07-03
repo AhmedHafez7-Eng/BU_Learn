@@ -1,0 +1,385 @@
+/*Navbar*/
+.navbar{
+    background-color:black;
+/*    padding-bottom: 20px;*/
+    font-size: 18px;
+}
+/*Navbar Brand*/
+.navbar-brand{
+    font-family: "Times New Roman";
+    font-size: 22px;
+    margin-left: 20px;
+}
+/*Links inside Navbar*/
+#navbarTogglerDemo02 a{
+    margin-left: 40px;
+    color: aliceblue;
+}
+/*Register Links*/
+#registernav{
+    margin-right: 160px;
+}
+#registernav a{
+    color: aliceblue;
+}
+/*Hover of all Navbar Links*/
+
+#navbarTogglerDemo02 a:hover , #registernav a:hover{
+    color:darkgray;
+}
+.borderlink{
+    height: 20px;
+    border-right: 2px solid white;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.dropbtn,.dropbtn:hover,.dropdown-menu{
+    border: 0px;
+    background-color: black;
+}
+.dropdown-item:hover, .dropdown-item:focus{
+    color: orangered !important; 
+    background-color: transparent;
+    font-weight: bold;
+   
+    
+    
+}
+.dropdown-item,.dropdown-item{
+    margin-left: 0 !important;
+/*    margin-bottom: 7px;*/
+    transition: all 0.2s ease-in;
+}
+                /*End Navbar*/
+                /*start intro*/
+
+.intro{
+    background: url("../img/large%20alphabet-blur-books-301920.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+    margin-top: 59px;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0,0,0,0.5);
+}
+.head1{
+    color: aliceblue;
+    font-size: 70px;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.p1{
+    position: absolute;
+    top: 270px;
+    left: 30px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.but1{
+    position: absolute;
+    bottom: 70px;
+    left: 40%;
+    width: 250px;
+    border-color: orangered;
+    color: aliceblue;
+    background-color: orangered;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.but1:hover{
+    border-color: orange;
+    background-color: orange;
+   
+}
+/*End intro*/
+
+/*Start uses section*/
+
+.uses{
+    background-color: #F9FAFB;
+}
+.head2{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: sans-serif;
+    color:#333333;
+}
+.uses .uses3{
+    width: 28%;
+    display: inline-block;
+    margin-left: 4%;
+    font-size: 20px;
+    background-color: #FFF;
+    padding: 0 30px;
+}
+.uses3 img{
+    margin: auto;
+    display: block;
+    margin-top: -60px;
+    margin-bottom: 15px;
+}
+.but2{
+    border: 1px solid #0677BA;
+    margin-left: 40%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 250px;
+/*    border-color: */
+    color: #0677BA;
+    background-color: white;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.but2:hover{
+    color: white;
+    border-color: rgba(0,0,255,0.8);
+    background-color: rgba(0,0,255,0.8);
+   
+}
+/*End Uses Section*/
+/*Start Sponsers Section*/
+.sponsers{
+    background-color: white;
+    position: relative;
+}
+.tools1{
+/*    background-color: red;*/
+    width: 45%;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+.tools1 p{
+    margin-top: 35px;
+    font-size: 25px;
+    color: black;
+}
+.tools1 h3{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.tools2{
+/*    background-color: green;*/
+    width: 45%;
+    position: absolute;
+    top: 0px;
+    right: 40px;
+}
+.tools2 img{
+    width: 20%;
+    height: 20%;
+    margin-left:17%;
+    margin-bottom: 40px;
+}
+.but3{
+    position: absolute;
+    left: 40%;
+    top: 570px;
+    border: 1px solid #0677BA;
+    width: 250px;
+/*    border-color: */
+    color: #0677BA;
+    background-color: white;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.but3:hover{
+    color: white;
+    border-color: rgba(0,0,255,0.8);
+    background-color: rgba(0,0,255,0.8);
+   
+}
+
+/*End Sponsers Section*/
+/*Start reqdemo section*/
+.reqdemo{
+    background-color: white;
+    position: relative;
+    top: 700px;
+}
+.tools3{
+/*    background-color: red;*/
+    width: 45%;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+.tools3 p{
+    margin-top: 35px;
+    font-size: 25px;
+    color: black;
+}
+.tools3 h3{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.tools4{
+/*    background-color: green;*/
+    width: 45%;
+    position: absolute;
+    top: 0px;
+    right: 40px;
+}
+.but4{
+    position: absolute;
+    left: 40%;
+    top: 500px;
+    border: 1px solid #0677BA;
+    width: 250px;
+/*    border-color: */
+    color: #0677BA;
+    background-color: white;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.but4:hover{
+    color: white;
+    border-color: rgba(0,0,255,0.8);
+    background-color: rgba(0,0,255,0.8);
+   
+}
+/*End reqdemo section*/
+/*Start footer*/
+footer{
+    background-color: #0D7BBC;
+    position: relative;
+    top: 1300px;
+    color: aliceblue;
+}
+footer .social{
+    display: inline-flex;
+    margin-left: 200px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.social ul{
+    list-style: none;
+   
+}
+footer span a{
+    color: orange;
+}
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+footer span a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.social li{
+     margin-bottom: 10px;
+}   
+/*End footer*/
+
+                            /*End of Home Page*/
+                            /*Start Log In Page*/
+
+.log{
+/*    border: 1px solid red;*/
+    position: relative;
+    left: 26%;
+    top: 180px;
+    width: 45%;
+    padding: 1%;
+    background-color: rgba(255,255,255,0.7);
+    color:dimgrey;
+    border-radius: 2%;
+}
+.log input, .log label{
+    width: 400px;
+    margin-left: 20px;
+}
+.log h4{
+    font-weight: 500;
+    margin: 20px 0px 20px 20px;
+}
+
+.log span{
+    font-weight: 200;
+    margin-left: 20px;
+}
+.log h4 span{
+    font-weight: bold;
+    color: orange;
+    margin-left: 7px;
+}
+.log button{
+    border: 1px solid dimgrey;
+    width: 150px;
+    color: dimgrey;
+    background-color: white;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+}
+.log button:hover{
+    color: white;
+    border-color: dimgrey;
+    background-color: dimgrey;
+}
+.log a{
+    margin-left: 90px;
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+}
+ /*End Log In Page*/
+/*Start Sign Up Page*/
+
+.sign{
+    position: relative;
+    top: 80px;
+    padding: 1px;
+}
+.sign button{
+    margin-left: 35%;
+}
+/*End Sign Up Page*/
+
+
+/*Start Course Page*/
+
+
+
+/*End Course Page*/
+
+
+
+
+
+
+
+
+
+
